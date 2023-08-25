@@ -78,6 +78,7 @@ a {
 .hero-wrap {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   position: relative;
   height: calc(100vh - 90px);
   background: #e6f0ff;
@@ -121,15 +122,12 @@ a {
   border-radius: 8px;
 }
 
-.hero {
-  margin-top: 130px;
-}
 
-.hero .infor {
+.hero-wrap .infor {
   width: 51%;
 }
 
-.hero .sub-tittle {
+.hero-wrap .sub-tittle {
   font-size: 1.8rem;
   font-weight: 500;
   line-height: 1.5;
@@ -138,7 +136,7 @@ a {
   color: #687690;
 }
 
-.hero .tittle {
+.hero-wrap .tittle {
   margin-top: 8px;
   font-size: 6.2rem;
   font-weight: 600;
@@ -147,7 +145,7 @@ a {
   color: #000336;
 }
 
-.hero .des {
+.hero-wrap .des {
   margin-top: 30px;
   font-weight: 400;
   font-size: 1.8rem;
@@ -155,7 +153,7 @@ a {
   color: #5a6473;
 }
 
-.hero .hero-cta {
+.hero-wrap .hero-cta {
   min-width: 170px;
   margin-top: 40px;
 }
